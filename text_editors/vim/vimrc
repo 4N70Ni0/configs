@@ -1,0 +1,18 @@
+" COOKIES!!
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
+" Encoding
+set encoding=utf8
+set fileencoding=utf-8
+
+"" SET
+set number 
+set tabstop=4
+set shiftwidth=4
+set mouse=""
+
+"" MAP
+" New lines down / up
+nnoremap o o<ESC>
+nnoremap O O<ESC>
