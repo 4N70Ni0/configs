@@ -1,0 +1,53 @@
+{
+	"Alt-/": "lua:comment.comment",
+	"CtrlUnderscore": "lua:comment.comment",
+
+
+	"Alt-a": "None",
+	"Ctrl-d": "None",
+	"Ctrl-s": "None",
+
+	"Ctrl-p": "CursorUp",
+	"Alt-p": "CursorPageUp",
+	"Ctrl-n": "CursorDown",
+	"Alt-n": "CursorPageDown",
+	"Ctrl-b": "CursorLeft",
+	"Ctrl-f": "CursorRight",
+
+	"Alt-P": "SelectUp",
+	"Alt-N": "SelectDown",
+	"Alt-B": "SelectLeft",
+	"Alt-F": "SelectRight",
+	"Alt-A": "SelectToStartOfLine",
+	"Alt-E": "SelectToEndOfLine",
+	"Alt-S": "SelectLine",
+
+	"Ctrl-a": "StartOfLine",
+	"Alt-a": "CursorStart",
+	"Ctrl-e": "EndOfLine",
+	"Alt-e": "CursorEnd",
+
+	"Ctrl-r": "Redo",
+	"Ctrl-u": "Undo",
+
+	"Ctrl-c": "CopyLine|Copy",
+	"Alt-c": "DuplicateLine",
+	"Ctrl-x": "CutLine",
+	"Ctrl-l": "Paste",
+	"Ctrl-k": "DeleteLine",
+	"Ctrl-g": "MoveLinesDown",
+	"Alt-g": "MoveLinesUp",
+
+	"F1": "Find",
+	"F2": "FindNext",
+	"F3": "FindPrevious",
+	"F4": "command-edit:goto",
+
+	"Alt->": "InsertTab",
+	"Alt-<": "OutdentLine",
+
+	"Ctrl-o": "Save",
+	"Tab": "Autocomplete|IndentSelection|InsertTab",
+	"Alt-.": "CommandMode",
+	"Alt-:": "command:vsplit,command:term"
+}
