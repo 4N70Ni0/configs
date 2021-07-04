@@ -1,0 +1,35 @@
+# Syntax Highlighting
+include "/usr/share/nano/nanorc.nanorc"
+include "/usr/share/nano/c.nanorc"
+include "/usr/share/nano/html.nanorc"
+include "/usr/share/nano/man.nanorc"
+include "/usr/share/nano/python.nanorc"
+include "/usr/share/nano/java.nanorc"
+
+## SET
+set autoindent
+set constantshow
+set linenumbers
+set tabsize 4
+set emptyline
+set indicator
+set nonewlines # Non-POSIX
+set softwrap
+set stateflags
+#set saveonexit
+
+# Color
+set keycolor bold,yellow,black
+set numbercolor bold,yellow,black
+set errorcolor bold,white,red
+set scrollercolor yellow,black
+set selectedcolor bold,black,white
+set statuscolor bold,yellow,black
+set titlecolor bold,yellow,black
+set functioncolor bold,yellow,black
+
+## UNSET
+unset mouse
+# unset suspend # Old version
+unset suspendable
+unset breaklonglines
